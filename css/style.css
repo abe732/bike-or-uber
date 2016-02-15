@@ -1,0 +1,137 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  outline: #888;
+  
+}
+
+button {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #888;
+  font-size: 26px;
+  width: 120px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  color: #333;
+}
+
+#buttons {
+  margin: 0 auto 0 auto;
+}
+
+text {
+  color: #888;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+
+}
+
+#this-trip-savings {
+  color: green;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+}
+
+#total-savings-calculator {
+  /*
+  if value is > 0, should be green */
+  color: green;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+  
+  /*if value <0, should be red */
+  
+}
+
+#map {
+  min-width: 200px;
+  width: 60%;
+  min-height: 200px;
+  height: 80%;
+  margin: 0 auto 0 auto;
+}
+/*
+[
+  {
+    "featureType": "water",
+    "elementType": "geometry.fill",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#41abed" },
+      { "weight": 1.4 }
+    ]
+  },{
+    "featureType": "road.arterial",
+    "stylers": [
+      { "visibility": "on" },
+      { "color": "#809d80" },
+      { "lightness": 12 },
+      { "weight": 0.1 }
+    ]
+  }
+]
+*/
+
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#origin-input,
+#destination-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+#origin-input:focus,
+#destination-input:focus {
+  border-color: #4d90fe;
+}
+
+
+#mode-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  margin-left: 12px;
+  padding: 5px 11px 0px 11px;
+}
+
+#mode-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+
+#changemode-bicycling,
+#available-parking,
+#safety {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+  margin-left: 12px;
+  padding: 5px 11px 0px 11px;
+}
